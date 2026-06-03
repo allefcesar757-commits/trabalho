@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro Realizado</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+            background-color: #f4f7f6;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f7f6;
+            color: #333333;
+            display: block;
+            min-height: 297mm;
+            padding: 40mm 20mm;
+        }
+        
+        .card {
+            background-color: #ffffff;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            border-top: 6px solid #2ecc71;
+        }
+        
+        .icon-container {
+            margin-bottom: 25px;
+        }
+        
+        .success-icon {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            background-color: #e8f8f0;
+            color: #2ecc71;
+            border-radius: 50%;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 24pt;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        p {
+            color: #7f8c8d;
+            font-size: 12pt;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        
+        .details-box {
+            background-color: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+        
+        .details-title {
+            font-weight: bold;
+            color: #495057;
+            margin-bottom: 10px;
+            font-size: 11pt;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .details-item {
+            font-size: 10.5pt;
+            color: #6c757d;
+            margin-bottom: 8px;
+        }
+        
+        .details-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #2ecc71;
+            color: #ffffff;
+            padding: 12px 30px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 11pt;
+            transition: background-color 0.2s ease;
+        }
+        
+        .footer-text {
+            margin-top: 40px;
+            font-size: 9pt;
+            color: #bdc3c7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="icon-container">
+            <span class="success-icon">&checkmark;</span>
+        </div>
+        
+        <h1>Cadastro Realizado</h1>
+        
+        <p>Seu registro foi concluído com sucesso em nossa plataforma. Um e-mail de confirmação foi enviado com os detalhes do seu acesso.</p>
+        
+        <div class="details-box">
+            <div class="details-title">Próximos Passos:</div>
+            <div class="details-item">&bull; Verifique sua caixa de entrada (e a pasta de spam).</div>
+            <div class="details-item">&bull; Complete as informações do seu perfil inicial.</div>
+            <div class="details-item">&bull; Explore os recursos disponíveis no seu painel.</div>
+        </div>
+        
+        <a href="#" class="btn">Acessar Minha Conta</a>
+        
+        <div class="footer-text">
+            Se você tiver alguma dúvida, entre em contato com o nosso suporte técnico.
+        </div>
+    </div>
+
+</body>
+</html>
